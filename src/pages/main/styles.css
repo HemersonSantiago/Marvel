@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+    .commics-list {
+        padding: 1rem;
+    }
+    .commic-container {
+        padding: 0.5rem;
+    }
+    .commic-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.commics-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    grid-gap: 3rem;
+    justify-content: center;
+}
+.commic-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.commic-img  {
+    display: flex;
+    justify-content: center;
+}
+.commic-img img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem;
+}
